@@ -278,6 +278,40 @@
 			<key>uniqueIdentifier</key>
 			<string>6700FB39-D1BF-41C7-8239-50EA30D779AE</string>
 		</dict>
+		<key>69EA2EA6-EDEB-4E62-A3AB-8B4CE8187156</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>69EA2EA6-EDEB-4E62-A3AB-8B4CE8187156.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Simple-Calculator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Simple-Calculator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean Simple-Calculator</string>
+			<key>timeStartedRecording</key>
+			<real>700063749.62210298</real>
+			<key>timeStoppedRecording</key>
+			<real>700063749.64765894</real>
+			<key>title</key>
+			<string>Clean Simple-Calculator</string>
+			<key>uniqueIdentifier</key>
+			<string>69EA2EA6-EDEB-4E62-A3AB-8B4CE8187156</string>
+		</dict>
 		<key>9027046D-E621-4DC6-895D-AC6CA90ACFE0</key>
 		<dict>
 			<key>className</key>
@@ -311,6 +345,74 @@
 			<string>Build Simple-Calculator</string>
 			<key>uniqueIdentifier</key>
 			<string>9027046D-E621-4DC6-895D-AC6CA90ACFE0</string>
+		</dict>
+		<key>9377EA12-580B-4E6E-AA53-C9DFB48DB7C9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9377EA12-580B-4E6E-AA53-C9DFB48DB7C9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Simple-Calculator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Simple-Calculator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean Simple-Calculator</string>
+			<key>timeStartedRecording</key>
+			<real>700064001.91558802</real>
+			<key>timeStoppedRecording</key>
+			<real>700064001.99901795</real>
+			<key>title</key>
+			<string>Clean Simple-Calculator</string>
+			<key>uniqueIdentifier</key>
+			<string>9377EA12-580B-4E6E-AA53-C9DFB48DB7C9</string>
+		</dict>
+		<key>9412F814-AACE-4CD0-A74A-CEB875BE70B5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9412F814-AACE-4CD0-A74A-CEB875BE70B5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Simple-Calculator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Simple-Calculator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Simple-Calculator</string>
+			<key>timeStartedRecording</key>
+			<real>700063954.74854696</real>
+			<key>timeStoppedRecording</key>
+			<real>700063966.44213498</real>
+			<key>title</key>
+			<string>Build Simple-Calculator</string>
+			<key>uniqueIdentifier</key>
+			<string>9412F814-AACE-4CD0-A74A-CEB875BE70B5</string>
 		</dict>
 		<key>98076661-E1B4-424D-9ACF-3AD26D135627</key>
 		<dict>
@@ -516,6 +618,40 @@
 			<key>uniqueIdentifier</key>
 			<string>A5A72150-4628-4C46-BB5B-3E6B73311492</string>
 		</dict>
+		<key>A691F3AF-6D99-4F9C-823D-7362D8D4609C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A691F3AF-6D99-4F9C-823D-7362D8D4609C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Simple-Calculator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Simple-Calculator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean Simple-Calculator</string>
+			<key>timeStartedRecording</key>
+			<real>700064005.82972503</real>
+			<key>timeStoppedRecording</key>
+			<real>700064005.85761797</real>
+			<key>title</key>
+			<string>Clean Simple-Calculator</string>
+			<key>uniqueIdentifier</key>
+			<string>A691F3AF-6D99-4F9C-823D-7362D8D4609C</string>
+		</dict>
 		<key>AEE5052C-A45D-47F2-BAB2-E0FA5FDF0887</key>
 		<dict>
 			<key>className</key>
@@ -651,6 +787,40 @@
 			<string>Build Simple-Calculator</string>
 			<key>uniqueIdentifier</key>
 			<string>D032ABB6-93E7-4FC4-BA32-06343978FE7C</string>
+		</dict>
+		<key>EEE91204-4222-4C1F-A26B-208A4F20312F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EEE91204-4222-4C1F-A26B-208A4F20312F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Simple-Calculator project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Simple-Calculator</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Simple-Calculator</string>
+			<key>timeStartedRecording</key>
+			<real>700063967.97453797</real>
+			<key>timeStoppedRecording</key>
+			<real>700063968.06681705</real>
+			<key>title</key>
+			<string>Build Simple-Calculator</string>
+			<key>uniqueIdentifier</key>
+			<string>EEE91204-4222-4C1F-A26B-208A4F20312F</string>
 		</dict>
 		<key>F4756647-88FE-4243-80B4-FF8C15E8E8AA</key>
 		<dict>

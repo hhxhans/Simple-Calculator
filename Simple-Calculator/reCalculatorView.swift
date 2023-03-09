@@ -44,22 +44,22 @@ struct Calculatorbuttongrid: View {
                                     let clickedbuttoncontent=calculator.buttons[index*horizontal+number].buttoncontent
                                     let clickedcontentype=clickedbuttoncontent.operandtype
                                     let displayequalsnil:Bool = display==nil
-                                    let buttonanddisplay=(clickedcontentype,display,displayequalsnil)
+                                    let buttonanddisplay=(clickedcontentype,displayequalsnil)
                                     if clickedbuttoncontent != "" {
                                         switch buttonanddisplay {
-                                          case (0,_,false),(1,_,false):display?.append(clickedbuttoncontent)
-                                          case (2,_,false):display=nil
-                                          case (3,_,false):if display?.count != 1{
+                                          case (0,false),(1,false):display?.append(clickedbuttoncontent)
+                                          case (2,false):display=nil
+                                          case (3,false):if display?.count != 1{
                                               display?.removeLast()
                                           }else{
                                               display=nil
                                           }
-                                         case (4,_,false):if let result=calculate(string:display!.replacedexpression){
+                                         case (4,false):if let result=calculate(string:display!.replacedexpression){
                                             display="\(result)"
                                          }else{
                                              print("illegal expression")
                                          }
-                                        case(0,nil,true),(1,nil,true):display=clickedbuttoncontent  
+                                        case(0,true),(1,true):display=clickedbuttoncontent
                                         default:if true{}
                                             
                                         }

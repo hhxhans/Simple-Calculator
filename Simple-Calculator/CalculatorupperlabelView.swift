@@ -26,11 +26,11 @@ struct CalculatorupperlabelView: View {
         var result:Double
         var body: some View {
             if Double(Int(result))  == result  {
-                Text("\(Int(result))") .font(.largeTitle)
+                Text("\(Int(result))") .font(.title)
                     .frame( maxWidth: .infinity,  alignment: .bottomTrailing)
             }else{
                 Text("\(String(format: "%.3f", result))")
-                        .font(.largeTitle)
+                        .font(.title)
                         .frame( maxWidth: .infinity,  alignment: .bottomTrailing)
             }
         }

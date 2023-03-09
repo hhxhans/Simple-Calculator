@@ -27,9 +27,9 @@ struct Calculatorbuttongrid: View {
     @Binding var display:String?
     var content:[String]{
         var returncontent:[String]=[]
-                for index in 0..<calculator.buttons.count {
-                    returncontent.append(calculator.buttons[index].buttoncontent)
-                }
+        for index in 0..<calculator.buttons.count {
+            returncontent.append(calculator.buttons[index].buttoncontent)
+        }
         return returncontent
     }
 
@@ -41,28 +41,27 @@ struct Calculatorbuttongrid: View {
                         ForEach(0..<horizontal) { number in
                             ZStack{
                                 Button (action:{
-                                    let buttonclicked=calculator.buttons[index*horizontal+number].buttoncontent
-                                    if buttonclicked != "" {
-                                        if display != nil {
-                                            switch buttonclicked.operandtype{
-                                             case 0,1:display?.append(buttonclicked)
-                                             case 2:display=nil
-                                             case 3:if display?.count != 1{
-                                                display?.removeLast()}else{
-                                                    display=nil
-                                                }
-                                            case 4:if let result=calculate(string:display!.replacedexpression){
-                                                display="\(result)"
-                                                }else{
-                                                print("illegal expression")
-                                                }
-                                            default:if true{}
-                                               
-                                            }
-                                        }else{
-                                            if (buttonclicked.operandtype==0)||(buttonclicked.operandtype==1) {
-                                                display=buttonclicked
-                                            }
+                                    let clickedbuttoncontent=calculator.buttons[index*horizontal+number].buttoncontent
+                                    let clickedcontentype=clickedbuttoncontent.operandtype
+                                    let displayequalsnil:Bool = display==nil
+                                    let buttonanddisplay=(clickedcontentype,display,displayequalsnil)
+                                    if clickedbuttoncontent != "" {
+                                        switch buttonanddisplay {
+                                          case (0,_,false),(1,_,false):display?.append(clickedbuttoncontent)
+                                          case (2,_,false):display=nil
+                                          case (3,_,false):if display?.count != 1{
+                                              display?.removeLast()
+                                          }else{
+                                              display=nil
+                                          }
+                                         case (4,_,false):if let result=calculate(string:display!.replacedexpression){
+                                            display="\(result)"
+                                         }else{
+                                             print("illegal expression")
+                                         }
+                                        case(0,nil,true),(1,nil,true):display=clickedbuttoncontent  
+                                        default:if true{}
+                                            
                                         }
                                     }
                                 })

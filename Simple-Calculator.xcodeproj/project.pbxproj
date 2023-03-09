@@ -11,6 +11,13 @@
 		C7406B2029BA083C008B68D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7406B1F29BA083C008B68D0 /* ContentView.swift */; };
 		C7406B2229BA0842008B68D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7406B2129BA0842008B68D0 /* Assets.xcassets */; };
 		C7406B2529BA0842008B68D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7406B2429BA0842008B68D0 /* Preview Assets.xcassets */; };
+		C7406B2F29BA0896008B68D0 /* Arrayextension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7406B2B29BA0892008B68D0 /* Arrayextension.swift */; };
+		C7406B3029BA0896008B68D0 /* CalculatorupperlabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7406B2C29BA0893008B68D0 /* CalculatorupperlabelView.swift */; };
+		C7406B3129BA0896008B68D0 /* Dictionaryextension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7406B2D29BA0895008B68D0 /* Dictionaryextension.swift */; };
+		C7406B3229BA0896008B68D0 /* Stringextension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7406B2E29BA0896008B68D0 /* Stringextension.swift */; };
+		C7406B3629BA08D3008B68D0 /* Calculatorm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7406B3429BA08D0008B68D0 /* Calculatorm.swift */; };
+		C7406B3729BA08D3008B68D0 /* reCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7406B3529BA08D3008B68D0 /* reCalculatorView.swift */; };
+		C7406B3D29BA099C008B68D0 /* MathExpression in Frameworks */ = {isa = PBXBuildFile; productRef = C7406B3C29BA099C008B68D0 /* MathExpression */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,12 @@
 		C7406B1F29BA083C008B68D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C7406B2129BA0842008B68D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7406B2429BA0842008B68D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7406B2B29BA0892008B68D0 /* Arrayextension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arrayextension.swift; sourceTree = "<group>"; };
+		C7406B2C29BA0893008B68D0 /* CalculatorupperlabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorupperlabelView.swift; sourceTree = "<group>"; };
+		C7406B2D29BA0895008B68D0 /* Dictionaryextension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionaryextension.swift; sourceTree = "<group>"; };
+		C7406B2E29BA0896008B68D0 /* Stringextension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stringextension.swift; sourceTree = "<group>"; };
+		C7406B3429BA08D0008B68D0 /* Calculatorm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculatorm.swift; sourceTree = "<group>"; };
+		C7406B3529BA08D3008B68D0 /* reCalculatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = reCalculatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7406B3D29BA099C008B68D0 /* MathExpression in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +67,11 @@
 			children = (
 				C7406B1D29BA083C008B68D0 /* Simple_CalculatorApp.swift */,
 				C7406B1F29BA083C008B68D0 /* ContentView.swift */,
+				C7406B3429BA08D0008B68D0 /* Calculatorm.swift */,
+				C7406B3529BA08D3008B68D0 /* reCalculatorView.swift */,
+				C7406B2C29BA0893008B68D0 /* CalculatorupperlabelView.swift */,
 				C7406B2129BA0842008B68D0 /* Assets.xcassets */,
+				C7406B3329BA089E008B68D0 /* Extension */,
 				C7406B2329BA0842008B68D0 /* Preview Content */,
 			);
 			path = "Simple-Calculator";
@@ -65,6 +83,16 @@
 				C7406B2429BA0842008B68D0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C7406B3329BA089E008B68D0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C7406B2B29BA0892008B68D0 /* Arrayextension.swift */,
+				C7406B2D29BA0895008B68D0 /* Dictionaryextension.swift */,
+				C7406B2E29BA0896008B68D0 /* Stringextension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +111,9 @@
 			dependencies = (
 			);
 			name = "Simple-Calculator";
+			packageProductDependencies = (
+				C7406B3C29BA099C008B68D0 /* MathExpression */,
+			);
 			productName = "Simple-Calculator";
 			productReference = C7406B1A29BA083C008B68D0 /* Simple-Calculator.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +142,9 @@
 				Base,
 			);
 			mainGroup = C7406B1129BA083C008B68D0;
+			packageReferences = (
+				C7406B3B29BA099C008B68D0 /* XCRemoteSwiftPackageReference "MathExpression" */,
+			);
 			productRefGroup = C7406B1B29BA083C008B68D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7406B2F29BA0896008B68D0 /* Arrayextension.swift in Sources */,
 				C7406B2029BA083C008B68D0 /* ContentView.swift in Sources */,
+				C7406B3229BA0896008B68D0 /* Stringextension.swift in Sources */,
+				C7406B3029BA0896008B68D0 /* CalculatorupperlabelView.swift in Sources */,
+				C7406B3129BA0896008B68D0 /* Dictionaryextension.swift in Sources */,
+				C7406B3729BA08D3008B68D0 /* reCalculatorView.swift in Sources */,
 				C7406B1E29BA083C008B68D0 /* Simple_CalculatorApp.swift in Sources */,
+				C7406B3629BA08D3008B68D0 /* Calculatorm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +381,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C7406B3B29BA099C008B68D0 /* XCRemoteSwiftPackageReference "MathExpression" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/peredaniel/MathExpression";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C7406B3C29BA099C008B68D0 /* MathExpression */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7406B3B29BA099C008B68D0 /* XCRemoteSwiftPackageReference "MathExpression" */;
+			productName = MathExpression;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C7406B1229BA083C008B68D0 /* Project object */;
 }
